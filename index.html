@@ -1,182 +1,147 @@
 <!DOCTYPE html>
 <html>
+
+<link rel="stylesheet" type="text/css" href="estilo.css" />
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="estilo.css" />
+  <title>BotsLab</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="recursos/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="recursos/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="recursos/favicon/favicon-16x16.png">
+  <link rel="manifest" href="recursos/favicon/site.webmanifest">
+</head>
 
-  <body>
-    <!-- NAVBAR FIXA -->
-    <nav class="navbar">
-      <img class=logo src="recursos/Botslab logo 2.svg" alt="logo da botslab"
-      height="60" width=200" align=left>
-      <a href="#contact" align="right">Contato</a>
-      <a href="#benef" align="right">Benefícios</a>
-      <a href="#home" align="right">Home</a>
-    </nav>
+<body>
+  <!-- NAVBAR FIXA -->
+  <nav class="navbar">
+    <img class=logo src="recursos/Botslab logo 2.svg" alt="logo da botslab" height="60" width=200" align=left>
+    <a href="#contact" align="right">Contato</a>
+    <a href="#benef" align="right">Benefícios</a>
+    <a href="#home" align="right">Home</a>
+  </nav>
 
-    <!-- CHAMADA INICIAL -->
-    <div class="main-call" id="home">
-      <img
-        src="recursos/cerebro.png"
-        alt="imagem cerebro computador"
-        class="main-call-img"
-      />
-      <h1>Robôs e Inteligência Artificial</h1>
-      <h2>Gerando eficiência e escala para o <br />seu negócio</h2>
+  <!-- CHAMADA INICIAL -->
+  <div class="main-call" id="home">
+    <img src="recursos/cerebro.png" alt="imagem cerebro computador" class="main-call-img" />
+    <h1>Robôs e Inteligência Artificial</h1>
+    <h2>Gerando eficiência e escala para o <br />seu negócio</h2>
+  </div>
+
+  <!-- DESTAQUE PRINCIPAL -->
+  <div class="feat">
+    <h2>A <b>transformação digital</b> do seu negócio começa aqui</h2>
+    <h3>
+      Nós apoiamos empresas na sua jornada de transformação digital através da
+      automatização de processos de negócio por meio de robôs de software e
+      inteligência artificial
+    </h3>
+  </div>
+
+  <!-- CONTEÚDO PRINCIPAL COM OS CARDS -->
+  <div class="main-cont">
+    <div class="card-b">
+      <img src="recursos/engrenages.png" alt="imagem de engrenagens" class="card-b-img-left" />
+      <h1>Automatize qualquer atividade ou processo de negócio repetitivo</h1>
+      <h2>
+        Com a automação de processos é possível reduzir custos e aumentar a
+        produtividade de qualquer atividade de negócio que seja
+        <b>repetitiva</b>, <b>escalável</b> e com <b>grande volume</b>.
+      </h2>
+      <span class="label">Logística</span>
+      <span class="label">Suprimentos</span>
+      <span class="label">Financeiro</span>
+      <span class="label">Recursos Humanos</span>
+      <span class="label">Administrativo</span>
+      <span class="label">Comercial</span>
+      <span class="label">Contabilidade</span>
+      <span class="label">Marketing</span>
+      <span class="label">Juridico</span>
+      <span class="label">Auditoria</span>
+      <span class="label">?</span>
     </div>
 
-    <!-- DESTAQUE PRINCIPAL -->
-    <div class="feat">
-      <h2>A <b>transformação digital</b> do seu negócio começa aqui</h2>
-      <h3>
-        Nós apoiamos empresas na sua jornada de transformação digital através da
-        automatização de processos de negócio por meio de robôs de software e
-        inteligência artificial
-      </h3>
-    </div>
-
-    <!-- CONTEÚDO PRINCIPAL COM OS CARDS -->
-    <div class="main-cont">
-      <div class="card-b">
-        <img
-          src="recursos/engrenages.png"
-          alt="imagem de engrenagens"
-          class="card-b-img-left"
-        />
-        <h1>Automatize qualquer atividade ou processo de negócio repetitivo</h1>
+    <h1 id="benef">Benefícios</h1>
+    <div class="card-group">
+      <div class="card-s">
+        <img src="recursos/transito-rapido-em-massa.png" alt="imagem produtividade" class="card-s-img">
+        <h1>Maior produtividade</h1>
         <h2>
-          Com a automação de processos é possível reduzir custos e aumentar a
-          produtividade de qualquer atividade de negócio que seja
-          <b>repetitiva</b>, <b>escalável</b> e com <b>grande volume</b>.
-        </h2>
-        <span class="label">Logística</span>
-        <span class="label">Suprimentos</span>
-        <span class="label">Financeiro</span>
-        <span class="label">Recursos Humanos</span>
-        <span class="label">Administrativo</span>
-        <span class="label">Comercial</span>
-        <span class="label">Contabilidade</span>
-        <span class="label">Marketing</span>
-        <span class="label">Juridico</span>
-        <span class="label">Auditoria</span>
-        <span class="label">?</span>
-      </div>
-      
-      <h1 id="benef">Benefícios</h1>
-      <div class="card-group">
-        <div class="card-s">
-          <img
-            src="recursos/transito-rapido-em-massa.png"
-            alt="imagem produtividade"
-            class="card-s-img">
-          <h1>Maior produtividade</h1>
-          <h2>
-            Os tempos de ciclos de processo são muito mais rápidos em comparação com abordagens manuais.
-          </h2>
-        </div>
-  
-        <div class="card-s">
-          <img
-            src="recursos/aprovado.png"
-            alt="imagem confiabilidade"
-            class="card-s-img">
-          <h1>Confiabilidade</h1>
-          <h2>
-            Os robôs trabalham 24/7, sem interrupções.
-            <br>Tarefas de rotina são executadas sempre da mesma maneira e a todo momento.
-          </h2>
-        </div>
-  
-        <div class="card-s">
-          <img
-            src="recursos/remedio.png"
-            alt="imagem satisfação"
-            class="card-s-img">
-          <h1>Aumenta a satisfação dos colaboradores</h1>
-          <h2>
-            Os colaboradores podem dedicar mais tempo para trabalhos criativos e estratégicos.</h2>
-        </div>
-      </div>
-
-      <div class="card-group">
-        <div class="card-s">
-          <img
-            src="recursos/seta.png"
-            alt="imagem baixo investimento"
-            class="card-s-img">
-          <h1>Baixo investimento</h1>
-          <h2>
-            Utilizamos tecnologías open source que não dependem de plataformas….
-          </h2>
-        </div>
-  
-        <div class="card-s">
-          <img
-            src="recursos/compartilhamento-de-arquivos.png"
-            alt="imagem gerencie seus robôs"
-            class="card-s-img">
-          <h1>Gerenie seus robôs</h1>
-          <h2>
-            Monitore o desempenho dos robôs e gerencie o fluxo de trabalho e indicadores de desempenho em 
-            um painel administrativo.</h2>
-        </div>
-  
-        <div class="card-s">
-          <img
-            src="recursos/desenvolvimento.png"
-            alt="imagem baixa barreira técnica"
-            class="card-s-img">
-          <h1>Baixa barreira técnica</h1>
-          <h2>
-            Tecnologia não-invasiva, sem interrupção para os sistemas legados, reduzindo a carga da TI.</h2>
-        </div>
-      </div>
-
-      <div class="card-b">
-        <img
-          src="recursos/api.png"
-          alt="imagem de engrenagens"
-          class="card-b-img-left"
-        />
-        <h1>
-          Nossos robôs trabalham de forma autônoma e integrada com sistemas
-          legados
-        </h1>
-        <h2>
-          Desenvolvemos robôs customizados que se adequam aos processos de cada
-          empresa para entregar...
+          Os tempos de ciclos de processo são muito mais rápidos em comparação com abordagens manuais.
         </h2>
       </div>
-      
 
+      <div class="card-s">
+        <img src="recursos/aprovado.png" alt="imagem confiabilidade" class="card-s-img">
+        <h1>Confiabilidade</h1>
+        <h2>
+          Os robôs trabalham 24/7, sem interrupções.
+          <br>Tarefas de rotina são executadas sempre da mesma maneira e a todo momento.
+        </h2>
+      </div>
+
+      <div class="card-s">
+        <img src="recursos/remedio.png" alt="imagem satisfação" class="card-s-img">
+        <h1>Aumenta a satisfação dos colaboradores</h1>
+        <h2>
+          Os colaboradores podem dedicar mais tempo para trabalhos criativos e estratégicos.</h2>
+      </div>
     </div>
 
-    <!-- CONTATO -->
-    <div class="contact" id="contact">
-      <h1>Contato</h1>
-      <form>
-        <input
-          class="input"
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Nome"
-        />
-        <input
-          class="input"
-          type="email"
-          id="email"
-          name="email"
-          placeholder="E-mail"
-        />
-      </form>
+    <div class="card-group">
+      <div class="card-s">
+        <img src="recursos/seta.png" alt="imagem baixo investimento" class="card-s-img">
+        <h1>Baixo investimento</h1>
+        <h2>
+          Utilizamos tecnologías open source que não dependem de plataformas….
+        </h2>
+      </div>
+
+      <div class="card-s">
+        <img src="recursos/compartilhamento-de-arquivos.png" alt="imagem gerencie seus robôs" class="card-s-img">
+        <h1>Gerenie seus robôs</h1>
+        <h2>
+          Monitore o desempenho dos robôs e gerencie o fluxo de trabalho e indicadores de desempenho em
+          um painel administrativo.</h2>
+      </div>
+
+      <div class="card-s">
+        <img src="recursos/desenvolvimento.png" alt="imagem baixa barreira técnica" class="card-s-img">
+        <h1>Baixa barreira técnica</h1>
+        <h2>
+          Tecnologia não-invasiva, sem interrupção para os sistemas legados, reduzindo a carga da TI.</h2>
+      </div>
     </div>
 
-    <!-- RODAPÉ FIXO -->
-    <div class="footer">
-      <img class=logo src="recursos/botslab_logo2.png" alt="logo da botslab"
-      height="25" width=125" align=left>
-      <h2>Copyright © 2020 BotsLab. Todos os direitos reservados</h2>
+    <div class="card-b">
+      <img src="recursos/api.png" alt="imagem de engrenagens" class="card-b-img-left" />
+      <h1>
+        Nossos robôs trabalham de forma autônoma e integrada com sistemas
+        legados
+      </h1>
+      <h2>
+        Desenvolvemos robôs customizados que se adequam aos processos de cada
+        empresa para entregar...
+      </h2>
     </div>
-  </body>
+
+
+  </div>
+
+  <!-- CONTATO -->
+  <div class="contact" id="contact">
+    <h1>Contato</h1>
+    <form>
+      <input class="input" type="text" id="name" name="name" placeholder="Nome" />
+      <input class="input" type="email" id="email" name="email" placeholder="E-mail" />
+    </form>
+  </div>
+
+  <!-- RODAPÉ FIXO -->
+  <div class="footer">
+    <img class=logo src="recursos/botslab_logo2.png" alt="logo da botslab" height="25" width=125" align=left>
+    <h2>Copyright © 2020 BotsLab. Todos os direitos reservados</h2>
+  </div>
+</body>
+
 </html>
