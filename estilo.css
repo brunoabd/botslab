@@ -57,7 +57,7 @@ body {
 
 /** -- INICIO DA CHAMADA INICIAL -- **/
 .main-call {
-  background-image: url(/recursos/img_back.jpg);
+  background-image: url(recursos/img_back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
