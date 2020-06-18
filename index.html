@@ -121,20 +121,20 @@
     <!-- CONTATO -->
     <section id="contato" class="contato">
       <h1>Contato</h1>
-      <form>
+      <form action="https://formspree.io/xknqzjlg" method="POST">
         <div class="campo">
           <label for="nome">Nome</label>
-          <input type="text" id="nome"/>
+          <input type="text" id="nome" name="name" required="true"/>
         </div>
         <div class="campo">
           <label for="email">E-mail</label>
-          <input type="text" id="email"/>
+          <input type="email" id="email" name="_replyto" required="true"/>
         </div class="campo">
         <div class="campo">
           <label for="msg">Mensagem</label>
-          <textarea type="text" id="msg" rows="5"></textarea>
+          <textarea type="text" id="msg" name="message" rows="5" required="true"></textarea>
         </div>
-        <button type="submit">Enviar</button>
+        <button type="submit" >Enviar</button>
       </form>
     </section>
 
@@ -143,6 +143,8 @@
       <img src="recursos/logo_footer.png" alt="logo da botslab">
       <h2>Copyright © 2020 BotsLab. Todos os direitos reservados</h2>
     </footer>
+
+    <script src="scripts/form.js"></script>
   </body>
 
 </html>
